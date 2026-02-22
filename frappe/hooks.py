@@ -11,7 +11,7 @@ app_logo_url = "/assets/frappe/images/frappe-framework-logo.svg"
 develop_version = "15.x.x-develop"
 app_home = "/app/build"
 
-app_email = "developers@frappe.io"
+app_email = "karianyuapps@gmail.com"
 
 before_install = "frappe.utils.install.before_install"
 after_install = "frappe.utils.install.after_install"
@@ -522,18 +522,18 @@ standard_navbar_items = [
 ]
 
 standard_help_items = [
-	{
-		"item_label": "About",
-		"item_type": "Action",
-		"action": "frappe.ui.toolbar.show_about()",
-		"is_standard": 1,
-	},
-	{
-		"item_label": "Keyboard Shortcuts",
-		"item_type": "Action",
-		"action": "frappe.ui.toolbar.show_shortcuts(event)",
-		"is_standard": 1,
-	},
+	# {
+	# 	"item_label": "About",
+	# 	"item_type": "Action",
+	# 	"action": "frappe.ui.toolbar.show_about()",
+	# 	"is_standard": 1,
+	# },
+	# {
+	# 	"item_label": "Keyboard Shortcuts",
+	# 	"item_type": "Action",
+	# 	"action": "frappe.ui.toolbar.show_shortcuts(event)",
+	# 	"is_standard": 1,
+	# },
 	{
 		"item_label": "System Health",
 		"item_type": "Route",
@@ -541,9 +541,9 @@ standard_help_items = [
 		"is_standard": 1,
 	},
 	{
-		"item_label": "Frappe Support",
+		"item_label": "Contact Support",
 		"item_type": "Route",
-		"route": "https://frappe.io/support",
+		"route": "https://helpdesk.bwkarianyu.co.ke",
 		"is_standard": 1,
 	},
 ]
