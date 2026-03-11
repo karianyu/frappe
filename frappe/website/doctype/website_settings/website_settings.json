@@ -384,7 +384,7 @@
    "label": "Navbar Template"
   },
   {
-   "default": "Frappe",
+   "default": "BUILD WITH KARIANYU",
    "fieldname": "app_name",
    "fieldtype": "Data",
    "label": "App Name"
@@ -412,6 +412,7 @@
    "label": "Automatically delete account within (hours)"
   },
   {
+   "default": "Build With Karianyu LTD",
    "fieldname": "footer_powered",
    "fieldtype": "Small Text",
    "label": "Footer \"Powered By\"",
@@ -498,6 +499,7 @@
    "role": "All"
   }
  ],
+ "row_format": "Dynamic",
  "sort_field": "creation",
  "sort_order": "DESC",
  "states": [],
