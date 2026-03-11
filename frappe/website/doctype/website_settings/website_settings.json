@@ -390,7 +390,7 @@
    "label": "Navbar Template"
   },
   {
-   "default": "Frappe",
+   "default": "BUILD WITH KARIANYU",
    "fieldname": "app_name",
    "fieldtype": "Data",
    "label": "App Name"
@@ -418,6 +418,7 @@
    "label": "Automatically delete account within (hours)"
   },
   {
+   "default": "Build With Karianyu LTD",
    "fieldname": "footer_powered",
    "fieldtype": "Small Text",
    "label": "Footer \"Powered By\"",
@@ -483,7 +484,7 @@
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2024-03-23 16:04:03.999928",
+ "modified": "2026-03-11 17:29:52.511596",
  "modified_by": "Administrator",
  "module": "Website",
  "name": "Website Settings",
@@ -504,6 +505,7 @@
    "role": "All"
   }
  ],
+ "row_format": "Dynamic",
  "sort_field": "creation",
  "sort_order": "DESC",
  "states": [],
