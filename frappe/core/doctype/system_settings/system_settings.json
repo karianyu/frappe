@@ -31,6 +31,8 @@
   "column_break_21",
   "allow_older_web_view_links",
   "show_external_link_warning",
+  "calendar_section",
+  "default_calendar",
   "security_tab",
   "security",
   "session_expiry",
@@ -770,12 +772,23 @@
   {
    "fieldname": "column_break_bzfr",
    "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "calendar_section",
+   "fieldtype": "Section Break",
+   "label": "Calendar"
+  },
+  {
+   "fieldname": "default_calendar",
+   "fieldtype": "Link",
+   "label": "Default Calendar",
+   "options": "Google Calendar"
   }
  ],
  "icon": "fa fa-cog",
  "issingle": 1,
  "links": [],
- "modified": "2025-11-04 16:47:54.230874",
+ "modified": "2026-04-09 14:00:37.707974",
  "modified_by": "Administrator",
  "module": "Core",
  "name": "System Settings",
