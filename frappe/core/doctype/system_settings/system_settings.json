@@ -31,6 +31,8 @@
   "apply_strict_user_permissions",
   "column_break_21",
   "show_external_link_warning",
+  "calendar_section",
+  "default_calendar",
   "security_tab",
   "security",
   "session_expiry",
@@ -896,6 +898,17 @@
   {
    "fieldname": "frappectl_help",
    "fieldtype": "HTML"
+  },
+  {
+   "fieldname": "calendar_section",
+   "fieldtype": "Section Break",
+   "label": "Calendar"
+  },
+  {
+   "fieldname": "default_calendar",
+   "fieldtype": "Link",
+   "label": "Default Calendar",
+   "options": "Google Calendar"
   }
  ],
  "icon": "fa fa-cog",
