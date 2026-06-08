@@ -13,7 +13,7 @@ def validate_route_conflict(doctype, name):
 
 	if frappe.flags.in_migrate:
 		return
-
+	
 	all_names = []
 	for _doctype in ["Page", "Workspace", "DocType"]:
 		all_names.extend(
