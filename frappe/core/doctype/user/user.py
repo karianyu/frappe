@@ -98,6 +98,7 @@ class User(Document):
 		form_sidebar: DF.Check
 		full_name: DF.Data | None
 		gender: DF.Link | None
+		google_calendar: DF.Link | None
 		home_settings: DF.Code | None
 		interest: DF.SmallText | None
 		language: DF.Link | None
