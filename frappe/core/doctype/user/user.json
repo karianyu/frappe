@@ -18,6 +18,7 @@
   "column_break0",
   "full_name",
   "username",
+  "google_calendar",
   "column_break_11",
   "language",
   "time_zone",
@@ -904,6 +905,12 @@
    "fieldname": "form_navigation_buttons",
    "fieldtype": "Check",
    "label": "Show navigation buttons"
+  },
+  {
+   "fieldname": "google_calendar",
+   "fieldtype": "Link",
+   "label": "Google Calendar",
+   "options": "Google Calendar"
   }
  ],
  "icon": "user-round",
