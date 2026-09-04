@@ -465,7 +465,10 @@ def get_workspace_sidebar_items():
 		)
 	except JSONDecodeError:
 		workspace_visibilty = {}
+	except Exception as e:
+		workspace_visibilty = {}
 		pass
+
 
 	# Filter Page based on Permission
 	for page in all_pages:
