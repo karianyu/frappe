@@ -110,6 +110,8 @@ class FilterTuple(_FilterTuple):
 				raise ValueError("fieldname is required")
 			if is_unspecified(value):
 				raise ValueError("value is required; can be None")
+			if operator is None:  # ponytail: clients can send a null operator; "=" is the documented default
+				operator = "="
 
 			# soundness
 			if operator in ("in", "not in") and isinstance(value, str):
