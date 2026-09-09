@@ -1607,15 +1607,17 @@ class Document(BaseDocument):
 				_("Table {0} cannot be empty").format(label), raise_exception or frappe.EmptyTableError
 			)
 
-	def round_floats_in(self, doc, fieldnames=None):
+	def round_floats_in(self, doc, fieldnames=None, do_not_round_fields=None):
 		"""Round floats for all `Currency`, `Float`, `Percent` fields for the given doc.
 
 		:param doc: Document whose numeric properties are to be rounded.
-		:param fieldnames: [Optional] List of fields to be rounded."""
+		:param fieldnames: [Optional] List of fields to be rounded.
+		:param do_not_round_fields: [Optional] List of fields to skip."""
 		if not fieldnames:
 			fieldnames = (
 				df.fieldname
 				for df in doc.meta.get("fields", {"fieldtype": ["in", ["Currency", "Float", "Percent"]]})
+				if df.fieldname not in (do_not_round_fields or ())
 			)
 
 		# PERF: flt internally has to resolve this if we don't specify it.
