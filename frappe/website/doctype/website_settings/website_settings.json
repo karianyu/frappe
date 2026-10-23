@@ -23,6 +23,7 @@
   "show_footer_on_login",
   "column_break_9",
   "app_logo",
+  "login_background_image",
   "section_break_6",
   "website_theme",
   "website_theme_image",
@@ -393,6 +394,12 @@
    "fieldname": "app_logo",
    "fieldtype": "Attach Image",
    "label": "App Logo"
+  },
+  {
+   "description": "Background image for the login page. Falls back to the default background when not set.",
+   "fieldname": "login_background_image",
+   "fieldtype": "Attach Image",
+   "label": "Login Background Image"
   },
   {
    "fieldname": "account_deletion_settings_section",

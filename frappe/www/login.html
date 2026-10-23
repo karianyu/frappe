@@ -75,6 +75,17 @@
 
 {% block head_include %}
 {{ include_style('login.bundle.css') }}
+{% if login_background_image %}
+<style>
+	body {
+		background-image: url({{ login_background_image | tojson }});
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+	}
+</style>
+{% endif %}
 {% endblock %}
 
 {% macro logo_section(title=null, subtitle=null) %}

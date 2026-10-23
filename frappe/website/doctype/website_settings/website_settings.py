@@ -48,6 +48,7 @@ class WebsiteSettings(Document):
 		home_page: DF.Data | None
 		indexing_authorization_code: DF.Data | None
 		indexing_refresh_token: DF.Data | None
+		login_background_image: DF.AttachImage | None
 		navbar_template: DF.Link | None
 		navbar_template_values: DF.Code | None
 		robots_txt: DF.Code | None
